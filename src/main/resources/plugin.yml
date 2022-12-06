@@ -1,0 +1,14 @@
+name: RocketPersonalShops
+main: com.rocketmc.personalshops.PersonalShops
+version: 1.0
+author: RocketMC
+load: POSTWORLD
+depend:
+  - WorldGuard
+  - ActionBarAPI
+  - HolographicDisplays
+commands:
+  banco:
+    aliases: [ec, enderchest]
+  personalshops:
+    aliases: [lojinha]
